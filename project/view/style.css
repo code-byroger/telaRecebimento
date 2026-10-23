@@ -1,0 +1,147 @@
+body{
+    background-color: #110a3b;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/*
+=============================================
+            Cabeçalho
+=============================================
+
+*/
+.Cabecalho{
+    background-color: #9D00FF;
+    border-color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    gap: 20px; /*Espaçamento entre os itens*/
+}
+.Cabecalho h1{
+    
+    color: #fff;
+    font-size: 20px;
+    margin: 0;
+    
+}
+.espacador{
+    flex-grow: 0;
+}
+.bloco-operadores{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+#operadores{
+    color: #000;
+    margin: 0;
+}
+#nomes_operadores{
+    padding: 2px;
+    border-radius: 4px;
+    border: none 1px solid #fff;
+    outline: none;
+}
+.retangulo{
+   background-color: #fff;
+   width: 2px;
+   height: 35px;
+}
+#dataHora{
+    color: #fff;
+}
+/*
+=============================================
+            Lançamento
+=============================================
+
+*/
+#titulo{
+    color: #110a3b;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    text-align: center;
+}
+.campo-grupo{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+.Lancamento{
+    background-color: #fff;
+    width: 850px;
+    padding: 20px;
+    border: 7px solid #230636;
+    border-radius: 10px;
+    margin: 20px auto; /* Centraliza a caixa na tela */
+    box-shadow: 2px 3px 3px rgb(37, 32, 44);
+
+}
+.Lancamento form{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:16px 20px;
+}
+.Lancamento{
+    color: #000;
+    
+    font-size: 14px;
+}
+.Lancamento input{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+.Lancamento select{
+    padding: 6px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    outline: none;
+    width: 100%;
+    box-sizing: border-box;
+}
+#buttonSave{
+    background-color: #230636;
+    /*background-color: rgb(54, 250, 54);*/
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    cursor: pointer;
+
+}
+/*
+==============================================
+        Lançamento Tabela
+==============================================
+*/
+.Lancamento table{
+    border-collapse: collapse;
+    border: 1px solid #000;
+    width: 100%;
+}
+.Lancamento table thead{
+    background-color: #230636;
+    color: #fff;
+}
+.Lancamento table tbody td{
+    border-collapse: separate;
+    padding: 10px;
+    border: 1.5px solid #000;
+    text-align: center;
+    
+}
+.Lancamento table caption{
+    color: #110a3b;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    font-size: large;
+    font-weight: bold;
+    
+}
