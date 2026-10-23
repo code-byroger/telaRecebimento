@@ -116,10 +116,7 @@ Rogerio Santos|1023|João da Silva|23-10-2026 14:30|4587|Pix|150,00|150,00
 4. Envie para a branch: `git push origin minha-feature`
 5. Abra um Pull Request
 
-## 📄 Licença
-
-Este projeto está sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ---
 
-Feito com 💜 por **Seu Nome**
+Feito por Rogério Santos
